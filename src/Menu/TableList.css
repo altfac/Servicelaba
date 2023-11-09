@@ -1,0 +1,35 @@
+.file {
+  width: 180px;
+  border-radius: 100px;
+  padding: 0px 45px;
+  margin: -15px auto;
+  background-color: rgba(20, 20, 20, 0.377);
+  overflow: auto;
+  font-family: 'Silkscreen', sans-serif;
+  color: green;
+  position: fixed;
+  left: 0;
+  border: 1px solid orange;
+}
+
+.fileChoose {
+  width: 350px;
+  border-radius: 100px;
+  padding: 0px 20px;
+  margin: -50px 00px;
+  background-color: rgba(20, 20, 20, 0.377);
+  overflow: auto;
+  font-family: 'Silkscreen', sans-serif;
+  color: rgb(255, 0, 0);
+  position: fixed;
+  left: 0;
+  border: 1px solid orange;
+}
+
+.hhh {
+  font-family: 'Silkscreen', sans-serif;
+  color: orange;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+.time {
+  font-family: 'Silkscreen', sans-serif;
+  color: orange;
+  text-align: right;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .time {
+    width: 10%;
+    margin: 0 auto;
+    display: none;
+  }
+}

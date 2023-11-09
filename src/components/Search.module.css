@@ -1,0 +1,28 @@
+.wrapper {
+  text-align: center;
+}
+
+.search {
+  font-family: 'Silkscreen', sans-serif;
+  color: orange;
+  height: 30px;
+  font-size: 18px;
+  width: 20%;
+  margin: 30px 1520px 600px auto;
+  background-color: rgb(17, 17, 17);
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.search::placeholder {
+  color: orange;
+  opacity: 1;
+}
+
+.search:-ms-input-placeholder {
+  color: orange;
+}
+
+.search::-ms-input-placeholder {
+  color: orange;
+}

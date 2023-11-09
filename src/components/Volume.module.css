@@ -1,0 +1,62 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 60px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 4px;
+  border: 4px;
+  border-radius: 600px;
+  border-color: blue;
+  background-image: url('https://media.tenor.com/iuJxty_zrBAAAAAi/obama-ball.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  rotate: 45;
+  color: blue;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 15%;
+  background: linear-gradient(to bottom, white, blue, red);
+  background-image: url('https://media.tenor.com/iuJxty_zrBAAAAAi/obama-ball.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  width: 35px;
+  height: 35px;
+  background-image: url('https://media.tenor.com/iuJxty_zrBAAAAAi/obama-ball.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider::-moz-range-thumb {
+  width: 200px;
+  height: 20px;
+  rotate: 45;
+  border-radius: 50%;
+  background-image: url('https://media.tenor.com/iuJxty_zrBAAAAAi/obama-ball.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    display: none;
+  }
+}

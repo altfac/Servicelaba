@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  border-radius: 100px;
+  padding: 0px 45px;
+  margin: 5px auto;
+  background-color: rgba(20, 20, 20, 0.377);
+  overflow: auto;
+  font-family: 'Silkscreen', sans-serif;
+  position: fixed;
+  bottom: 0;
+  border: 1px solid orange;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}

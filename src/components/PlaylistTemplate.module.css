@@ -1,0 +1,42 @@
+.wrapper {
+  width: 10px;
+  max-width: 400px;
+  min-width: 0px;
+  margin: -565px 1450px 0px auto;
+  max-height: 450px;
+  min-height: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px dashed orange;
+  background-color: #0000002d;
+  position: fixed;
+  left: 0;
+}
+
+
+/* width */
+.wrapper::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.wrapper::-webkit-scrollbar-track {
+  border-radius: 50px;
+  -webkit-box-shadow: inset 0px 0px 6px rgb(240, 0, 0) 0.7;
+  background-color: #3a3a3a;
+  border: 3px solid black;
+}
+
+/* Handle */
+.wrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  width: 10px;
+  background-color: orange;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+}

@@ -1,0 +1,36 @@
+.track {
+  font-family: 'Silkscreen', sans-serif;
+  color: orange;
+  text-align: center;
+  font-size: 19px;
+  margin: 0px 0;
+  padding: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.track:first-child {
+  margin: 0;
+}
+
+.active {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  font-family: 'Silkscreen', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin: 6px 0;
+  padding: 6px 0;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.active:first-child {
+  margin: 0;
+}
+
+.track:hover {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}

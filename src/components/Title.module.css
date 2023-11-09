@@ -1,0 +1,15 @@
+.title {
+  color: orange;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Silkscreen', sans-serif;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
